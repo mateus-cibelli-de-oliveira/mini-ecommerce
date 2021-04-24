@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>RESERVA</title>
+    <link rel="stylesheet" href="../css/detalhes.css" />
+    <script type="text/javascript" src="../js/alerta-desconto.js"></script>
+  </head>
+<body>
+    <section>
+      <div class="row">
+        <div class="col1">
+          <img src="../Images/blusa-azul-fem.png" alt="" srcset="" />
+        </div>
+        <div class="col2">
+          <h1>ELISA FERNANDES</h1>
+          <p>
+            Blusa azul corrente.<br>
+            Tamanho: <b>M</b><br>
+            Condição: <b>Usado</b>
+          </p>
+          <s>R$ 120,00</s>
+          <h2>R$ 30,00</h2>
+          <form name="cadastrar">
+            <label for="User"><b>Ponha o seu código:</b></label>
+            <input type="text" name="codigo" placeholder="Ex: TGHE3678"><br>
+          <span>
+            <h3>Tipo de desconto:</h3>
+            <select name="desconto">
+              <option value="valores">Valor de 10%</option>
+              <option value="valores">Fixo R$10,00</option>
+            </select>
+          </span><br>
+          <input type="submit" value="Aplicar" onclick="clicar()"></input>
+          <a class="wishlist" href="../index.php">Voltar às compras</a>
+        </form><br>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>RESERVA</title>
+    <link rel="stylesheet" href="../css/detalhes.css" />
+  </head>
+<body>
+    <section>
+      <div class="row">
+        <div class="col1">
+          <img class="imgPreview" src="../Images/camisa-preta.png" alt="" srcset="" />
+        </div>
+        <div class="col2">
+          <h1>RESERVA</h1>
+          <p>
+            Camisa estampada masculina.<br>
+            Tamanho: <b>P</b><br>
+            Condição: <b>Usado</b>
+          </p>
+          <s>R$ 199,00</s>
+          <h2>R$ 70,00</h2>
+          <form name="cadastrar" method="POST" action="../CLASSE/conect-cupom.php">
+            <label for="User"><b>Ponha o seu código:</b></label>
+            <input type="text" name="codigo" placeholder="Ex: TGHE3678" maxlength="8"><br>
+          <span>
+            <h3>Tipo de desconto:</h3>
+            <select name="desconto">
+              <option value="Por">Valor de 10%</option>
+              <option value="Fix">Fixo R$ 10,00</option>
+            </select>
+          </span><br>
+          <input type="submit" value="Aplicar"></input>
+          <a class="wishlist" href="../index.php">Voltar às compras</a>
+          </form><br>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
